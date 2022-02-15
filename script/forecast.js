@@ -34,18 +34,3 @@ const getWeather = async (id) => {
     return data[0]
 
 }
-
-// Let's join the two methods together
-
-// getCity('nawabshah')
-//     .then(data => {
-//         return getWeather(data.Key)
-//     }).then(data => {
-//         console.log(data)
-//     }).then(err => {
-//         console.log(err)
-//     })
-
-// update the location dynamically
-
-// MjQiddXzSw6ggUFcK0UbX7DVN65sAIef
